@@ -1,0 +1,16 @@
+import React from 'react';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+
+const App: React.FC = () => {
+  return (
+    <div className='container'>
+      <div className='card'>
+        <Header />
+        <Main />
+      </div>
+    </div>
+  );
+};
+
+export default App;
